@@ -57,3 +57,17 @@ i {
 #mainLeft {
     border-right: 1px solid lightgray;
 }
+
+.profile {
+    display: flex;
+    align-items: center; /* 수직 가운데 정렬 */
+}
+
+.profile img {
+    width: 50%;
+    margin-right: 10px; /* 이미지와 span 사이 여백 조절 */
+}
+
+.profile span {
+    font-size: 18px; /* 예시로 지정한 폰트 크기 */
+}
